@@ -31,13 +31,18 @@ def is_within_radius(lat1, lon1, lat2, lon2, radius):
 
 if __name__ == "__main__":
     # Beispielkoordinaten (Breitengrad, Längengrad) in Grad
-    lat1 = 52.22657877854336
-    lon1 = 8.731351135858274
-    lat2 = 52.2253810475654
-    lon2 = 8.730380168226874
-    radius_meters = 150
 
+    lat1 = 48.135121167717585
+    lon1 = 11.576257488665672
+
+    lat2 = 48.131707337080606
+    lon2 = 11.57603993702974
+
+    radius_meters = 750
+
+    print()
     if is_within_radius(lat1, lon1, lat2, lon2, radius_meters):
         print(f"Die Koordinate liegt innerhalb des {radius_meters}-Meter-Radius.")
     else:
         print(f"Die Koordinate liegt außerhalb des {radius_meters}-Meter-Radius.")
+    print()
