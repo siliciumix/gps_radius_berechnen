@@ -1,3 +1,10 @@
+# Da bei diesem Script eine Karte eine Kartendienstes angezeigt wird
+# müssten hier copyright Hinweise erfolgen. Da mir das zu unsicher ist
+# mache die Version nicht öffentlich.
+gps_radius_berechnen_map_view.py
+*.html
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
