@@ -38,7 +38,7 @@ if __name__ == "__main__":
     lat2 = 48.131707337080606
     lon2 = 11.57603993702974
 
-    radius_meters = 750
+    radius_meters = 690
 
     print()
     if is_within_radius(lat1, lon1, lat2, lon2, radius_meters):
